@@ -28,3 +28,5 @@ Merging more than one branch
     how to check if its created
         git branch
     when we merge any brach it should be master branch only
+    The command for merge is  
+        git merge branchname
