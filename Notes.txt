@@ -11,7 +11,7 @@ Step 4:
 Step 5:
     Configure user name and email to the github
         git config --global user.name "Jaya Krishna Pavan"
-        git config --global user.gmail "jkpm4321@gmail.com"
+        git config --global user.email "jkpm4321@gmail.com"
 Step 6:
     Add the remote repo to the local repo
         git remote add origin https://github.com/jkplearner/Git-practice.git
@@ -22,3 +22,9 @@ To push the repo to github
     git push -u origin master
 To take the files from the github
     git pull origin main
+Merging more than one branch
+    create a branch
+        git branch branchname
+    how to check if its created
+        git branch
+    
