@@ -1,0 +1,24 @@
+Step 1 :
+    create account in github
+Step 2:
+    Create a repo and copy its link
+    https://github.com/jkplearner/Git-practice.git
+Step 3:
+    open vs code and open terminal 
+Step 4:
+    Initialize the Git in the terminal
+        git init
+Step 5:
+    Configure user name and email to the github
+        git config --global user.name "Jaya Krishna Pavan"
+        git config --global user.gmail "jkpm4321@gmail.com"
+Step 6:
+    Add the remote repo to the local repo
+        git remote add origin https://github.com/jkplearner/Git-practice.git
+Convert the untracked files to tracked files
+    git add .
+    git commit -m "My first project"
+To push the repo to github
+    git push -u origin master
+To take the files from the github
+    git pull origin main
