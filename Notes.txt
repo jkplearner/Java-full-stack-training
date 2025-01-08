@@ -1,0 +1,32 @@
+Step 1 :
+    create account in github
+Step 2:
+    Create a repo and copy its link
+    https://github.com/jkplearner/git-demo.git
+Step 3:
+    open vs code and open terminal 
+Step 4:
+    Initialize the Git in the terminal
+        git init
+Step 5:
+    Configure user name and email to the github
+        git config --global user.name "Jaya Krishna Pavan"
+        git config --global user.email "jkpm4321@gmail.com"
+Step 6:
+    Add the remote repo to the local repo
+        git remote add origin  https://github.com/jkplearner/git-demo.git
+Convert the untracked files to tracked files
+    git add .
+    git commit -m "My first project"
+To push the repo to github
+    git push -u origin master
+To take the files from the github
+    git pull origin main
+Merging more than one branch
+    create a branch
+        git branch branchname
+    how to check if its created
+        git branch
+    when we merge any brach it should be master branch only
+    The command for merge is  
+        git merge branchname
