@@ -39,3 +39,6 @@ Functions in JS:
     Task:
         create a function it should perform arthemetic operation for two numbers
 Closure and lexical scope
+Function Expression:
+A function expression is a function that is assigned to a variable.
+It is used to perform specific tasks
