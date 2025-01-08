@@ -1,0 +1,56 @@
+Deployment of Project
+    Tools for Deployment
+        All tools mentioned are open-source:
+            Firebase (by Google)
+                Used for authentication and real-time database.
+            Netlify
+                Provides domain names.
+                Easy to learn with drag-and-drop functionality.
+            Git, GitHub, and GitLab
+                Currently being learned.
+            Bitbucket
+                Another version control and collaboration tool.
+        Deployment Workflow
+            The deployment process involves the following steps and tools:
+            Git and GitHub
+                Used for version control and code management.
+            Jenkins
+                Automates the process of fetching files from Git/GitHub.
+                Git labs is more easy for Jenkins
+            Docker
+                Generates container images from the application.
+            Kubernetes   
+                Manages and orchestrates Docker containers.
+            AWS (Amazon Web Services)
+                Cloud platform for hosting and scaling applications.
+            EC2 (Elastic Compute Cloud)
+                Virtual computer provided by AWS for running applications.
+Session start:
+    What is git and github:
+        A platform where developers can create,store,manage,deploy and share their code in public
+        Github is a cloud in that we will store and manage the data
+        Git is used to track the code in a github
+        Git is a version controller
+    How to use?
+        Need to install some tools like:
+            Git Bash
+            either run it on cmd or vs code
+    in the local repos we have two
+        un tracked files( these will be converted to tracked files)
+            create 
+            update
+            delete
+        tracked files
+        the command for the conversion of untracked to tracked files is
+            git add file-same
+            git add .
+            git commit -m "message"
+    in github we have repositories
+        when we create a repo it will generate a http link
+        which we attack with out local repo
+            the command for that is :
+                git remote add origin http-path( the http path is the repo http link)
+    for the repos to upload to the repo the command is:
+        git push -u( unstream-will upload all the files to the github repo byte by byte ) origin main/master
+    git pull is used to retreive the files from the repo and we update it and change it from untracked to tracked and then we commit again
+    We can create n number of branches

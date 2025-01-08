@@ -1,0 +1,79 @@
+Loops :
+1. For loop
+        The for loop is used to execute a block of code repeatedly for a specified number of times.
+        syntax:
+            for (initialization; condition; increment/decrement) {
+                // code to be executed
+            }
+        Example for for loop:
+            for (let i = 0; i < 5; i++) {
+                console.log(i);
+            }
+    2. While loop
+        The while loop is used to execute a block of code repeatedly while a specified condition is true.
+        syntax:
+            while (condition) {
+                // code to be executed
+            }
+        Example for while loop:
+            let i = 0;
+                while (i < 5) {
+                    console.log(i);
+                    i++;
+                }
+    3. Do-while loop
+        The do-while loop is used to execute a block of code repeatedly while a specified condition is true
+        syntax:
+            do {
+                // code to be executed
+            } while (condition);
+        Example for do-while loop:
+            let i = 0;
+            do {
+                console.log(i);
+                i++;
+            } while (i < 5);
+    4. For-each loop:
+    The for-each loop is used to iterate over an array or an object.
+        syntax:
+            for (let variable of iterable) {
+                // code to be executed
+            }
+        Example for for-each loop:
+            let fruits = ["apple", "banana", "cherry"];
+            for (let fruit of fruits) {
+                console.log(fruit);
+            }
+Block Scope:
+    Block scope is a feature of JavaScript that allows variables to be declared within a block of code, such as a for loop or an if statement. This means that the variable is only accessible within that block of code and not outside of it.
+Functions in JS:
+    Function are first citizens in JS.
+    Functions are object in JS.
+    Types of Functions in JS:
+        1. Function Declaration statement/Pure/named Function
+        2. Function Expression
+        3. Higher order Function, Call back Function
+        4. Arrow Function
+        5. nested Function
+        6. IIFE (immediate invoking function Expression)
+    1. Function declaration statement:
+        A function declaration statement is a function that is declared with the function keyword.
+        syntax:
+            function functionName(parameters) {
+                // code to be executed
+            }
+        Example for function declaration statement:
+            function greet(name) {
+                console.log("Hello, " + name);
+            }
+    2. Function Expression:
+        A function expression is a function that is assigned to a variable.
+        syntax:
+            let functionName = function(parameters) {
+            // code to be executed
+            };
+        Example for function expression:
+            let greet = function(name) {
+                console.log("Hello, " + name);
+            };
+    

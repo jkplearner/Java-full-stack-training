@@ -1,0 +1,33 @@
+JavaScript
+What is JavaScript?
+It is a object based programming language used to covnert static page into dynamic page
+Variables in JavaScript
+    Used to store data values
+    they are dynamic in nature
+    Scopes
+        Local/Script
+            declare it inside the fucntion and cannot be accessed outside the function
+        Global
+            Declare it outside the function access it inside the function
+        Block
+            Declare them inside the parathesis 
+    3 Types
+        var
+        let
+        const
+DataTypes in JavaScript 
+    It is a value used in a programming language 
+    primitive DataTypes 
+        number
+        String
+        boolean
+        undefined
+        null
+        big-int
+    Non primitive DataTypes
+        Arrays
+        Class
+        object  
+        Function
+        Map
+        Sets

@@ -1,0 +1,41 @@
+Functions in JS:
+    Function are first citizens in JS.
+    Functions are object in JS.
+    Types of Functions in JS:
+        1. Function Declaration statement/Pure/named Function
+        2. Function Expression
+        3. Higher order Function, Call back Function
+        4. Arrow Function
+        5. nested Function
+        6. IIFE (immediate invoking function Expression)
+    1. Function declaration statement:
+        A function declaration statement is a function that is declared with the function keyword.
+        syntax:
+            function functionName(parameters) {
+                // code to be executed
+            }
+        Example for function declaration statement:
+            function greet(name) {
+                console.log("Hello, " + name);
+            }
+    2. Function Expression:
+        A function expression is a function that is assigned to a variable.
+        syntax:
+            let functionName = function(parameters) {
+            // code to be executed
+            };
+        Example for function expression:
+            let greet = function(name) {
+                console.log("Hello, " + name);
+            };
+    hoisting means calling the function before function declaration
+    Example:
+        console.log(greet("John"));
+        function greet(name) {
+            return "hello!"+name;
+        }
+
+    The main advantage of using functions in JS is code resuability
+    Task:
+        create a function it should perform arthemetic operation for two numbers
+Closure and lexical scope

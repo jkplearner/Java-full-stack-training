@@ -1,0 +1,158 @@
+OPERATORS:
+    OPERATORS IN JAVASCRIPT
+    1. Arthematic Operator
+        Arthematic operators are used to perform mathematical operations like addition, subtraction, multiplication, division etc.
+        1. Addition operator: +
+        2. Subtraction operator: -
+        3. Multiplication operator: *
+        4. Division operator: /
+        5. Modulus operator: %
+        6. Exponentiation operator: **
+        7. Increment operator: ++
+        8. Decrement operator: --
+    2. Comparison Operator
+        Comparison operators are used to compare two values and return a boolean value.
+        1. Equal to operator: ==
+        2. Not equal to operator: !=
+        3. Greater than operator: >
+        4. Less than operator: <
+        5. Greater than or equal to operator: >=
+        6. Less than or equal to operator: <=
+        7. Strict equal to operator: ===
+        8. Strict not equal to operator: !==
+    3. Logical Operator
+        Logical operators are used to perform logical operations like AND, OR, NOT etc.
+        1. AND operator: &&
+        2. OR operator: ||
+        3. NOT operator: !
+    4. Assignment Operator
+        Assignment operators are used to assign a value to a variable.
+        1. Assignment operator: =
+        2. Addition and assignment operator: +=
+        3. Subtraction and assignment operator: -=
+        4. Multiplication and assignment operator: *=
+        5. Division and assignment operator: /=
+        6. Modulus and assignment operator: %=
+    5. Bitwise Operator
+        Bitwise operators are used to perform bitwise operations like AND, OR, XOR etc.
+        1. Bitwise AND operator: &
+        2. Bitwise OR operator: |
+        3. Bitwise XOR operator: ^
+        4. Bitwise NOT operator: ~
+    6. Ternary Operator
+        The Ternary operator is used to perform a conditional operation.
+        1. Ternary operator: ?:
+        syntax:
+        (condition) ? value_if_true : value_if_false
+Conditional Statements:
+    0. Simple If:
+        The simple if is a condition which only accepts true statement
+            Syntax: 
+                if (condition) {
+                    // code to be executed if condition is true
+                    }
+    1. If-else statement
+        The if-else statement is used to execute a block of code if a condition is true or false.
+        syntax:
+            if (condition) {
+                // code to be executed if condition is true
+            } else {
+                // code to be executed if condition is false
+            }
+    2. If-elif-else statement
+        The if-elif-else statement is used to execute a block of code if a condition is tru or false.
+        syntax:
+            if (condition1) {
+                // code to be executed if condition1 is true
+            } else if (condition2) {
+                // code to be executed if condition2 is true
+            } else {
+                // code to be executed if condition1 and condition2 are false
+            }
+    3. Switch statement
+        The switch statement is used to execute a block of code based on the value of a variable.
+        syntax:
+            switch (expression) {
+                case value1:
+                    // code to be executed if expression is equal to value1
+                    break;
+                case value2:
+                    // code to be executed if expression is equal to value2
+                    break;
+                default:
+                    // code to be executed if expression is not equal to any of the values
+            }
+    Example for if-else-if-else:
+        let num1 = 10;
+        let num2 = 20;
+        let num3 = 15;
+        let greatestNumber;
+        if (num1 >= num2 && num1 >= num3) {
+            greatestNumber = num1;
+        } else if (num2 >= num1 && num2 >= num3) {
+            greatestNumber = num2;
+        } else {
+            greatestNumber = num3;
+        }
+        console.log("The greatest number is: " + greatestNumber);
+    Switch case Example:
+        let n=1
+        switch(n){
+            case 1:
+                console.log("sunday");
+                break;
+            case 2:
+                console.log("monday");
+                break;
+            case 3:
+                console.log("tuesday");
+                break;
+            default:
+                console.log("no match");
+        }
+Loops:
+    1. For loop
+        The for loop is used to execute a block of code repeatedly for a specified number of times.
+        syntax:
+            for (initialization; condition; increment/decrement) {
+                // code to be executed
+            }
+        Example for for loop:
+            for (let i = 0; i < 5; i++) {
+                console.log(i);
+            }
+    2. While loop
+        The while loop is used to execute a block of code repeatedly while a specified condition is true.
+        syntax:
+            while (condition) {
+                // code to be executed
+            }
+        Example for while loop:
+            let i = 0;
+                while (i < 5) {
+                    console.log(i);
+                    i++;
+                }
+    3. Do-while loop
+        The do-while loop is used to execute a block of code repeatedly while a specified condition is true
+        syntax:
+            do {
+                // code to be executed
+            } while (condition);
+        Example for do-while loop:
+            let i = 0;
+            do {
+                console.log(i);
+                i++;
+            } while (i < 5);
+    4. For-each loop:
+    The for-each loop is used to iterate over an array or an object.
+        syntax:
+            for (let variable of iterable) {
+                // code to be executed
+            }
+        Example for for-each loop:
+            let fruits = ["apple", "banana", "cherry"];
+            for (let fruit of fruits) {
+                console.log(fruit);
+            }
