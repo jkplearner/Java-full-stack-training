@@ -1,0 +1,7 @@
+Function programming:
+    It is used to perform generic tasks(multiple tasks)
+    It can be created using function declaration statement or function expression or Arrow function
+    Higher order function(HOF):
+        A function which accepts another function as an argument is called HOF.
+    Call back function:
+        A funciton which passed as an argument to HOF is called call back function
