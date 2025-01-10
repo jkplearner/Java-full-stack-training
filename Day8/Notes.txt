@@ -1,0 +1,5 @@
+Function Declaration practical
+ARROW FUNCTIONS:
+>it was introduced in a ES-6 version in 2015(ES:ECMA-SCRIPT)
+>it is used to reduce  no of lines in a code.
+implicit and explicit return arrow Function
