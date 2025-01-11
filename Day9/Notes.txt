@@ -1,0 +1,11 @@
+A function inside another function is called nested function
+Lexical-scope/scope-chain
+    A function has access to its own scope and the scope of its outer functions, but not to th e scope of its inner functions.
+    This is called the scope chain or lexical scope.
+    the ability of js-engine search for variable in local scope if it is not available it iwll start searchin global scope
+CLosure
+    The binding of child function to the parent function is called closure
+    The binding of child function lexical scope to the parent function is called closure
+Disadvantage of closure:
+    Memory wastage
+    Whenever we call the child function multiple times, multiple times closure will be created in heap area 
