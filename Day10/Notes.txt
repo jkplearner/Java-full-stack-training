@@ -1,0 +1,15 @@
+iife function:
+    It will be called immediatley once function abject is created 
+    Syntax:
+        (expression - function)()
+    (function(){
+        console.log("Hello world");
+    })()
+    (() =>{
+        console.log("Hello world");
+    })()
+Arrays in JavaScript:
+It is used to store data of an different data types
+Object in JS:
+Used to store data in the form of key and value pair
+
