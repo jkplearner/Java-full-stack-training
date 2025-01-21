@@ -1,0 +1,18 @@
+ Asynchronous function
+ We use two methods
+ 1) setTimeOut(cbf,delay-time)
+ 2) setInterval(cbf,delay-time)
+ present inside the window object
+ PROMISE:
+--> promise is used to look after the asyn function
+-->a promise is an object
+3-PHASES:
+1. PENDING
+2. FULFILLED
+3. REJECTED
+syntax:
+new promise((resolve,reject)=>{
+    //code
+})
+.then(cbf)
+.catch(cbf)
