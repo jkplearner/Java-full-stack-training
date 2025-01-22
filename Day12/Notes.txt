@@ -1,0 +1,27 @@
+Promise Chaining in js:
+Using multiple 'then' methods is called promise Chaining
+Async and await key word : 
+they are used to avoid promise Chaining
+DOM (Document Object Model):
+    Before we have BOM (Browser Object Model):
+        Window ---- root element we cant directly access BOM so we use window
+        It is having API ie screen, navigator,navigation,history, storage , fetch , DOM API's
+    In the DOM all the HTML code will be in a tree like structure
+    DOM --> Document --> HTML -->Head --> metadata, Title
+    HTML--> Body --> All Tags
+    The HTML is divided into two:x
+        1. Head
+        2. Body
+        Head is used to store metadata about the document and also the title
+        Body is used to store the content of the document i.e the tags
+    DOM is an object.
+    It is an API provided by window
+    DOM is used to interact with the HTML document
+    DOM is used to add, remove, modify the elements of the HTML document and it is used to provide style for an element
+    It is have a root element that is Document
+    It is having a life span - page reloads
+        when we reload the page the dom is destroyed and new dom is created
+    How to convert HTML structure to DOM tree:
+        in a tree structure
+        using the root element that is document in that we have html and in that is head (meta,title) and Body(h1(content) and p(content) )
+        to target the elements we have some methods
