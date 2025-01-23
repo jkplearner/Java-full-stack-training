@@ -1,0 +1,8 @@
+Indirect access to the DOM methods are :
+1. document.getElementById() : This method returns the element that has the ID attribute with th
+e specified value. It returns null if no such element is found.
+2. document.getElementsByClassName() : This method returns a collection of elements that have the specified class 
+3. document.getElementsByTagName() : This method returns a collection of elements that have the specified tag
+4. document.querySelector(): This method returns the first element that matches the specified selectors.
+5. document.querySelectorAll() : This method returns a collection of elements that match the specified selectors
+6. document.getElementsByName()
