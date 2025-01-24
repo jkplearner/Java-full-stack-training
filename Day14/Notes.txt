@@ -1,0 +1,19 @@
+Events in DOM:
+It is an action performed by end user on a webn page:
+Types:
+    1) Key-board Events
+        a) Key-up Events
+        b) Key-down Events
+        c) Key-press Events
+    2) Mouse Events
+        a) onmouseover
+        b) onmouseleave
+        c) onclick
+        d) ondblclick
+    3) Form Events
+        a) input
+        b) focus
+        c) blur
+    4) Pointer Events
+        a) click Events
+        
