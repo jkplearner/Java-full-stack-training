@@ -1,0 +1,15 @@
+//Modififcaiton/manipulation of DOM
+-----------------------------------
+-->updating / modify of DOM.
+//method
+createElement()
+step 1 :- create an element using createElement()
+eg :-
+    document.createElement("h1")
+    console.log(a) //<h1></h1>
+    a.textContent = "hello"//<h1>hello</h1>
+step 2 :- 
+    append element to parent element using
+    appendChild()/append()
+    eg:-
+        document.body.appendChild(a)
