@@ -1,0 +1,21 @@
+JSON :
+Java Script Object Notation
+-->It is a plain text file where the data will be stored in the form of key and value pair where all the keys will be enclosed with double qoute.
+How to createt a JSON:
+    step 1 : create a .json file with any name
+    step 2 : To create json we cannot use undefined and function data type
+              We will store the data in a [{},{},{}] 
+    Methods of JSON :
+        1) stringify():
+            -->it will convert the object to json type
+        2) parse():
+            --> Will convert json to object format
+There are two types of API
+1) REST
+    We use JSON(It supports more than 21 languages)
+2) SOAP : 
+    We use HTTP and XHR
+There are three ways to fetch the data from JSON:
+1) fetch() Method
+2) ajax
+3) axios
