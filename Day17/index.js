@@ -12,18 +12,23 @@ window.fetch("data.json")
 .then((res)=>{
     console.log(res);
     console.log(res[0]);
-    
-})
-let demo =async()=>{
-    let response = await fetch("data.json");
-    console.log(response);
-    let data = await response.json();
-    console.log(data);
-    data.map((item)=>{
+    res.map((item)=>{
         console.log(item);
         document.body.innerHTML += `<h1>${item.name}</h1>`
         document.body.innerHTML += `<h1>${item.id}</h1>`
         document.body.innerHTML += `<h1>${item.designation}</h1>`
     })
-}
- demo();   
+})
+// let demo =async()=>{
+//     let response = await fetch("data.json");
+//     console.log(response);
+//     let data = await response.json();
+//     console.log(data);
+//     data.map((item)=>{
+//         console.log(item);
+//         document.body.innerHTML += `<h1>${item.name}</h1>`
+//         document.body.innerHTML += `<h1>${item.id}</h1>`
+//         document.body.innerHTML += `<h1>${item.designation}</h1>`
+//     })
+// }
+//  demo();   
