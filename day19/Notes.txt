@@ -1,0 +1,36 @@
+React JS:
+It is a library 
+It is used to develop single page application it is a component based application
+React is a declarative
+Before React we have 2 backbone.js and ember.js(These are the first framework in the JS)
+it was developed in 2013 by facebook the person is jordan walke
+React will render component on the webpage without page reloading 
+React follows MVC architecture
+Model View Controller
+When we install react it will create 3 dependencies:
+    React  
+        createElement, all-hooks
+    react-dom
+        used to create virtual-dom
+    react-scripts
+        run, debug,test, eject
+Recat uses the diffing algorithm
+How to create react
+1) CDN
+    It is a third party as it requires internt we dont use CDN 
+2) Node
+    It is a local package manager
+    It have two
+        npm 
+            node package manager
+            it is used to install , update , delete packages in js
+            npm install -g create-react-app
+            create-react-app app-name
+            npm create vite@latest ---> it will install latest version of react
+        npx
+            packages will be installed globally
+            node package runner
+            it is used to execute package without installing.
+            npx create-react-app app-name
+            no need to install packages globally
+        using yarn and vite we can install the latest packages
