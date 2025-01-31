@@ -1,0 +1,54 @@
+recat folder structure
+node_modules:
+    will store all packages and 3rd party libraries
+    babel will covert the advanced JS to older JS
+src:
+    It is the main folder used for creating components.
+index.html file:
+    It is a root file.
+eslint(ecma script lint()):
+    used for debug purpose
+package.json:
+    used to store all dependency and third part libraries
+Components in react :
+--> They are basic building blocks in react
+--> They are resusable
+--> There are two types of components:
+        --> Class based component
+        --> Function based component/Presentational component / dumb components
+    Class based components 
+        It is es6 class in JS.
+        It uses render method : used to render elements or components on the web-page.
+        It uses react-life-cycle :
+        It is a statefull component.
+        constructor is used to store data.
+        It uses extend keyword.
+        example:
+            import React from 'react';
+            class demo extend React.Component{
+                render(){
+                    return <h1>I am class based component</h1>
+                }
+            }
+            export default demo;
+    Function based component:
+        It is JS pure Function.
+        It does not have any react-lifecycle.
+        It does not use render method.
+        It is a stateless component.
+        AFter react 16.8 Function based component becomes statefull component because of hooks
+        We dont use any contructor and extend keyword.
+        We will use the useState() hook.
+        example:
+            import React from 'react';
+            function demo1(){
+                return <h1> I am a function based component</h1>
+            }
+            export default demo1;
+
+            import React from 'react';
+            let demo2 = () =>{
+                return <h1> I am a function based component</h1>
+            }
+            export default demo2;
+    
