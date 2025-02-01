@@ -1,17 +1,30 @@
+// import React from 'react'
+
+// const Demo = () => {
+//   return (
+//     <>
+//       {React.createElement("h1", "null", "Hello World")}
+//       {React.createElement("ol", {id : "demo"},
+//         React.createElement("li", null, "item1"),
+//         React.createElement("li", null, "item2"),
+//         React.createElement("li", null, "item3")
+//         )
+//       }
+//       </>
+//   )
+// }
+
+// export default Demo;
 import React from 'react'
 
 const Demo = () => {
   return (
     <>
-      {React.createElement("h1", "null", "Hello World")}
-      {React.createElement("ol", {id : "demo"},
-        React.createElement("li", null, "item1"),
-        React.createElement("li", null, "item2"),
-        React.createElement("li", null, "item3")
-        )
-      }
-      </>
+      <h1>content</h1>
+      <h2>Hello world</h2>
+      <h1>{5+5}</h1>
+    </>
   )
 }
 
-export default Demo;
+export default Demo
