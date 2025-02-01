@@ -1,0 +1,23 @@
+Ways of writing HTML
+1)HTML 
+    <h1></h1>
+2)JS
+let h1 = document.createElement("h1")
+console.log(h1)
+h1.textContent = "hello"
+3)react
+using react React.createElement("tag-name","null or{id : "demo"},"content")
+eg:
+    React.createElement("h1","null","hello")
+    React.createElement("h2","{id : "demo"}","hello")
+4) JSX
+    1) all the should be enclosed
+    2)FI there are more then one elementit should be wrapped in the parent elementit
+        <div>
+        <h1>hello</h1>
+        </div>
+    <> ---->fragment used to save memory in virtual - dom
+    <h1>hello</h1>
+    </>
+    3) {} use this for expressions
+        <h1>{5+5}</h1>
