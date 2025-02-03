@@ -1,0 +1,7 @@
+Props in react
+    Props stands for properties.
+    Props are used to send data from one component to another component.
+    Props are uni directional.
+    Props are object.
+    Props are immutable(read-only).
+    
