@@ -1,0 +1,10 @@
+Assignment questions : 
+1) what is props drilling and how to avoid it?
+2) What is default props
+Do it practically also
+States in react :
+-> State is used to store the data in the same component and update the data in the same component. 
+-> State are mutable 
+-> State can be read and write
+    Syntax : 
+        let {initial-value,function} = useState(initial-value)
