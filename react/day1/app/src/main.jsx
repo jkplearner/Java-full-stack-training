@@ -5,9 +5,10 @@ import { createRoot } from 'react-dom/client'
 // import Cbc from './Component/Cbc.jsx'
 // import Fbc from './Component/Fbc.jsx'
 // import Demo from './Component/demo.jsx'
-import Parent from './Props/Parent'
+import State from './state/State'
+// import Parent from './Props/Parent'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Parent />
+    <State/>
   </StrictMode>,
 )
