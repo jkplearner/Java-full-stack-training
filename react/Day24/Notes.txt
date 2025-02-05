@@ -1,0 +1,7 @@
+Assignment:
+Clone the spotify web page
+with navbar functions in the webpage
+clone the cdnjs webpage also with nav bar function
+should be done by friday
+-----------------------------------------------------
+Conditional Renderingl:
