@@ -83,17 +83,18 @@
 // };
 
 // export default State;
-import React,{useState} from 'react'
+import React,{useState,useRef} from 'react'
 import video from './1.mp4'
 const State = () => {
+  let ref1=useRef();
   let [state,setState] = useState(true)
   let demo = ()=>{
     setState(!state)
-    state ===true ? video.play() : video.pause()
+    state ===true ? ref1.current.play() : ref1.current.pause()
   }
   return (
     <div>
-      <video src={video} height="300px"></video>
+      <video src={video} height="300px" ref={ref1}></video>
       <button onClick={demo}>click</button>
     </div>
   )
