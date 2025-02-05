@@ -42,44 +42,61 @@
 // }
 
 // export default State
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 
+// const State = () => {
+//   let [name, setName] = useState('');
+//   let [password, setPassword] = useState('');
+
+//   let demo = (e) => {
+//     e.preventDefault();
+//     console.log({name, password});
+//     name==='admin' && password==='12345' ? window.open('https://www.pixabay.com') : console.log("error");
+//     ;
+//   };
+
+//   return (
+//     <div>
+//       <form onSubmit={demo}>
+//         <label htmlFor="name">Name:</label>
+//         <input
+//           type="text"
+//           id="name"
+//           name="name"
+//           value={name}
+//           onChange={(e) => setName(e.target.value)}
+//         />
+//         <br />
+//         <label htmlFor="password">Password:</label>
+//         <input
+//           type="password"
+//           id="password"
+//           name="password"
+//           value={password}
+//           onChange={(e) => setPassword(e.target.value)}
+//         />
+//         <br />
+//         <button type="submit">Submit</button>
+//       </form>
+//     </div>
+//   );
+// };
+
+// export default State;
+import React,{useState} from 'react'
+import video from './1.mp4'
 const State = () => {
-  let [name, setName] = useState('');
-  let [password, setPassword] = useState('');
-
-  let demo = (e) => {
-    e.preventDefault();
-    console.log({name, password});
-    name==='admin' && password==='12345' ? window.open('https://www.pixabay.com') : console.log("error");
-    ;
-  };
-
+  let [state,setState] = useState(true)
+  let demo = ()=>{
+    setState(!state)
+    state ===true ? video.play() : video.pause()
+  }
   return (
     <div>
-      <form onSubmit={demo}>
-        <label htmlFor="name">Name:</label>
-        <input
-          type="text"
-          id="name"
-          name="name"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-        />
-        <br />
-        <label htmlFor="password">Password:</label>
-        <input
-          type="password"
-          id="password"
-          name="password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-        />
-        <br />
-        <button type="submit">Submit</button>
-      </form>
+      <video src={video} height="300px"></video>
+      <button onClick={demo}>click</button>
     </div>
-  );
-};
+  )
+}
 
-export default State;
+export default State
