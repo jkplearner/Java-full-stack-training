@@ -1,0 +1,5 @@
+Ways of using styles in react
+----------------------------
+1) In-line css
+2) globally css
+3) external css
