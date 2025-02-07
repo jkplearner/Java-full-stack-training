@@ -9,9 +9,11 @@ import "./Styles/globally.css"
 import Inline from './Styles/Inline'
 // import State from './state/State'
 // import Parent from './Props/Parent'
+import Comp2 from './Styles/Comp2'
 import Comp1 from './Styles/Comp1'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Comp1/>
+    <Comp2/>
   </StrictMode>,
 )

@@ -26,6 +26,7 @@ const Comp1 = () => {
           <li><button>SignUp</button></li>
           <li><button>SignIn</button></li>
         </ol>
+        
       </nav>
     </main>
 
