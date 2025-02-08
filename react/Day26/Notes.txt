@@ -1,0 +1,17 @@
+forms in react:
+    controlled form:
+        uses useState and uses onChange event to take the data from form
+    uncontrolled form
+        uses useRef hook to fetch data from the form
+useRef hook in react:
+    Ref stands for reference
+    useRef hook uses real DOM 
+    It is used to store a reference to a DOM node or an in-memory object
+    useRef hook is used in uncontrolled form 
+    useRef is having a property called current
+    useRef is having a keyword called "ref" keyword
+Note : 
+    useRef will returns a object that object consists of current property
+    syntax:
+        import {useRef} from 'react'
+        let/var/const identifier = useRef(initial-value)
