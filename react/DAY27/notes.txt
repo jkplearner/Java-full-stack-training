@@ -1,0 +1,32 @@
+Lists and keys in react :
+List is used to iterate an array of object using the map() method
+keys are used to keep track of an element, by using keys we can understand which element is created, updated and deleted
+----------------------------------------------------------------------------------------------------------------------------
+useContext hook in react :
+-------------------------------
+It is used to padd/share data from one component to multiple component without passign a props.
+It is used to avoid props drilling.
+What is props drilling?
+    Sending a data from the parent component to the child component
+How to avoid props drilling?
+There are 3 ways:
+    1)using useContext hook
+    2)using HOC (Higher order component)
+    3)using redux
+Syntax for useContext:
+    step 1 :
+        create a context and export it
+        import React from 'react'
+        export var/let/const  identifier-name = React.createContext()
+    step 2 :
+        use providers to pass an value
+        <identifier-name.provider value={}>
+            <child component/>
+        <identifier-name.provider/>
+    step 3:
+    use consumer to consume the value given by provider
+        <identifier-name.consumer >
+            {
+                call back funcntion
+            }
+        <identifier-name.consumer/>
