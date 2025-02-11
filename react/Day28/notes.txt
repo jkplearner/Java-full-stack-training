@@ -1,0 +1,22 @@
+useEffect hook in react :
+It is used to provide side effect for function based component
+In react we can tell to our component to do something after render.
+Advantages : 
+-> Used for operating DOM
+-> used for timer
+-> used for fetching of data
+
+It is used to avoid react life-cycle.
+avoid componentDidMount
+avoid componentDidUpdate
+avoid componentWillUnMount
+Syntax:
+import {useEffect} from 'react';
+useEffect(cbf,dependency)
+in dependency three ways:
+    no dependency-component will render infinire
+    dependency with values (props or states)- component will render when value changes
+    empty dependency - component will render only once
+useEffect(() => {
+    // code to be executed
+}, dependency);
