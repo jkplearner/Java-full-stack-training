@@ -1,0 +1,259 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, sans-serif;
+}
+
+#nav {
+  height: 70px;
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#sub-nav {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+}
+
+#sub-nav span svg {
+  fill: #fff;
+  height: 1.7em;
+}
+
+#sub-nav ol {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+}
+
+#sub-nav ol li button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#sub-nav ol li button:hover {
+  color: #1ed760;
+}
+
+#main {
+  height: 70vh;
+  background-color: #b49bc8;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  padding: 20px 0;
+}
+
+#main h1 {
+  margin-top: 10px;
+  font-size: 40px;
+}
+
+#main h2 {
+  margin-top: 35px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+#main button {
+  margin-top: 40px;
+  padding: 16px 33px;
+  border-radius: 50px;
+  border: none;
+  text-transform: capitalize;
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#main button:hover {
+  transform: scale(1.1);
+}
+
+#main p {
+  margin-top: 40px;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+#main p a {
+  color: #000;
+}
+
+#main1 {
+  min-height: 450px;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#main1 h1 {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-size: 35px;
+  font-weight: 900;
+}
+
+#sub-main {
+  height: 360px;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.demo {
+  height: inherit;
+  width: 400px;
+  text-align: center;
+}
+
+.demo img {
+  height: 142px;
+}
+
+.demo p {
+  font-size: 21px;
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+.demo p + p {
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 20px;
+}
+
+#questions {
+  width: 90%;
+  margin: 50px auto 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+#questions h2 {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: 700;
+  height: auto;
+}
+
+#questions p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.question {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.question h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.question p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.question a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.question a:hover {
+  text-decoration: underline;
+}
+
+.answer {
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-left: 3px solid #007bff;
+  margin-top: 5px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+#footer {
+  background-color: #000;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  position: relative;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 80%;
+  margin: auto;
+}
+
+.logo {
+  fill:white;
+  width: 125px;
+  height: 50px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+
+
+.column {
+  text-align: left;
+  margin: 10px;
+}
+
+.column h4 {
+  margin-bottom: 10px;
+}
+
+.column p {
+  margin: 5px 0;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.column p:hover {
+  color: #1ed760;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 14px;
+}

@@ -59,12 +59,13 @@ import React, { useState, useEffect } from 'react';
 import './useEffects.css';
 
 const UseEffect = () => {
-    const [state, setState] = useState([]);
+    const [users, setUsers] = useState([]);
 
     useEffect(() => {
-        fetch('https://fakestoreapi.com/products')
-            .then((x)=>x.json()) 
-            .then((res) => setState(res)) 
+        fetch('https://api.github.com/users')
+            .then((response) => response.json())
+            .then((data) => setUsers(data))
+            .catch((error) => console.error('Error fetching data:', error));
     }, []);
 
     return (
@@ -73,17 +74,25 @@ const UseEffect = () => {
                 <thead>
                     <tr>
                         <th>ID</th>
-                        <th>Price</th>
-                        <th>Image</th>
+                        <th>Username</th>
+                        <th>Avatar</th>
+                        <th>Profile</th>
+                        <th>Followers URL</th>
                     </tr>
                 </thead>
                 <tbody>
-                    {state.map((data) => (
-                        <tr>
-                            <td>{data.id}</td>
-                            <td>{data.price}</td>
+                    {users.map((user) => (
+                        <tr key={user.id}>
+                            <td>{user.id}</td>
+                            <td>{user.login}</td>
                             <td>
-                                <img src={data.image} alt="product" width="50" />
+                                <img src={user.avatar_url} alt={user.login} width="50" />
+                            </td>
+                            <td>
+                                <a href={user.html_url} target="_blank" rel="noopener noreferrer">GitHub Profile</a>
+                            </td>
+                            <td>
+                                <a href={user.followers_url} target="_blank" rel="noopener noreferrer">Followers</a>
                             </td>
                         </tr>
                     ))}
@@ -94,3 +103,4 @@ const UseEffect = () => {
 };
 
 export default UseEffect;
+
