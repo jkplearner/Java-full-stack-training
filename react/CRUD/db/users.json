@@ -1,0 +1,7 @@
+{
+    "users" : [{
+        "name" :"abhi",
+        "id" :1,
+        "desgination" : "developer"
+    }]
+}
